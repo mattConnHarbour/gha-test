@@ -1,0 +1,133 @@
+[
+    {
+        "title": "CDN",
+        "tags": [
+            "editing",
+            "viewing"
+        ],
+        "slug": "cdn",
+        "demo_type": "interactive",
+        "dirname": "cdn-example"
+    },
+    {
+        "title": "Docxtemplater",
+        "tags": [
+            "editing",
+            "viewing",
+            "vue",
+            "templating"
+        ],
+        "slug": "docxtemplater",
+        "demo_type": "interactive",
+        "dirname": "docxtemplater-example"
+    },
+    {
+        "title": "SSR",
+        "tags": [
+            "editing",
+            "next-js",
+            "ssr"
+        ],
+        "slug": "ssr",
+        "demo_type": "interactive",
+        "dirname": "next-js-ssr"
+    },
+    {
+        "title": "Node JS",
+        "tags": [
+            "editing",
+            "node"
+        ],
+        "slug": "node",
+        "demo_type": "interactive",
+        "dirname": "nodejs-example"
+    },
+    {
+        "title": "React",
+        "tags": [
+            "editing",
+            "viewing",
+            "react"
+        ],
+        "slug": "react",
+        "demo_type": "interactive",
+        "dirname": "react-example"
+    },
+    {
+        "title": "Typescript",
+        "tags": [
+            "editing",
+            "viewing",
+            "typescript",
+            "vanilla-js"
+        ],
+        "slug": "typescript",
+        "demo_type": "interactive",
+        "dirname": "typescript-example"
+    },
+    {
+        "title": "Vanilla JS",
+        "tags": [
+            "editing",
+            "viewing",
+            "vanilla-js"
+        ],
+        "slug": "vanilla-js",
+        "demo_type": "interactive",
+        "dirname": "vanilla-example"
+    },
+    {
+        "title": "Custom Marks",
+        "tags": [
+            "editing",
+            "viewing",
+            "vue"
+        ],
+        "slug": "custom-marks",
+        "demo_type": "interactive",
+        "dirname": "vue-custom-mark"
+    },
+    {
+        "title": "Custom Nodes",
+        "tags": [
+            "editing",
+            "viewing",
+            "vue"
+        ],
+        "slug": "custom-nodes",
+        "demo_type": "interactive",
+        "dirname": "vue-custom-node-example"
+    },
+    {
+        "title": "DOCX from HTML",
+        "tags": [
+            "editing",
+            "viewing",
+            "vue"
+        ],
+        "slug": "docx-from-html",
+        "demo_type": "interactive",
+        "dirname": "vue-docx-from-html"
+    },
+    {
+        "title": "Vue",
+        "tags": [
+            "editing",
+            "viewing",
+            "vue"
+        ],
+        "slug": "vue",
+        "demo_type": "interactive",
+        "dirname": "vue-example"
+    },
+    {
+        "title": "HTML Editor",
+        "tags": [
+            "editing",
+            "viewing"
+        ],
+        "slug": "html-editor",
+        "demo_type": "interactive",
+        "dirname": "vue-html-editor"
+    }
+]

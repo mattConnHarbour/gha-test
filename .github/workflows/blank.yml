@@ -37,7 +37,7 @@ jobs:
         run: git config user.name 'github-actions[bot]' && git config user.email 'github-actions[bot]@users.noreply.github.com'
       - name: commit changed files
         run: git commit -m "Writing new file"
-      - name: fetch from master
-        run: git fetch origin master
-      - name: push code to master
-        run: git push origin HEAD:master
+      - name: fetch from main
+        run: git fetch origin main
+      - name: push code to main
+        run: git push origin HEAD:main

@@ -33,6 +33,8 @@ jobs:
         run: git status
       - name: stage changed files
         run: git add .
+      - name: set git user
+        run: git config user.name 'github-actions[bot]' && git config user.email 'github-actions[bot]@users.noreply.github.com'
       - name: commit changed files
         run: git commit -m "Writing new file"
       - name: fetch from master

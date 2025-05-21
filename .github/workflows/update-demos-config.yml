@@ -1,0 +1,42 @@
+name: Update Demos Config
+
+on:
+# manually run
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Homepage
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Checkout SuperDoc repo
+        uses: actions/checkout@v4
+        with:
+          repository: Harbour-Enterprises/superdoc
+          path: superdoc # if we successfully check 
+          fetch-depth: 1
+
+      - name: execute python script
+        run: python generate-config.py
+
+      - name: set git user
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+
+      - name: stage changed files
+        run: git add .
+
+      - name: commit changed files
+        run: git commit -m "Updating demos config"
+
+      - name: fetch from main
+        run: git fetch origin main
+
+      - name: push code to main
+        run: git push origin HEAD:main

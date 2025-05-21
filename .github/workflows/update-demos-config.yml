@@ -22,7 +22,10 @@ jobs:
           fetch-depth: 1
 
       - name: execute python script
-        run: python generate-config.py
+        run: python scripts/generate-config.py
+
+      - name: cleanup
+        run: rm -rf superdoc
 
       - name: set git user
         run: |

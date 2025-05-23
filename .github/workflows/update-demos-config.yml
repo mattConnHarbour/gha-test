@@ -1,7 +1,10 @@
 name: Update Demos Config
 
 on:
-# manually run
+  push:
+    branches:
+      - main
+
   workflow_dispatch:
 
 jobs:

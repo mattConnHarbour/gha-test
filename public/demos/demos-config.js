@@ -18,6 +18,16 @@ const demosConfigGlobal = [
     "title": "Docxtemplater"
 },
 {
+    "dirname": "grading-papers-example",
+    "tags": [
+        "editing",
+        "next-js",
+        "LMS",
+        "ssr"
+    ],
+    "title": "Grading papers with SuperDoc"
+},
+{
     "dirname": "next-js-ssr",
     "tags": [
         "editing",
